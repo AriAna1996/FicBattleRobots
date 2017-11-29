@@ -23,7 +23,7 @@ void transmiteComenzi(char *comenzi, int sockfd){
 		if( send(sockfd , msg , strlen(msg) , 0) < 0)
         	{
             		puts("Send failed");
-            		return 1;
+            		//return 1;
         	}
 		sleep(1);
 	}
